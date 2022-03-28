@@ -11,8 +11,8 @@
   inputs.src-list_comprehension-master.ref   = "refs/heads/master";
   inputs.src-list_comprehension-master.owner = "nim-lang";
   inputs.src-list_comprehension-master.repo  = "graveyard";
-  inputs.src-list_comprehension-master.dir   = "lc";
-  inputs.src-list_comprehension-master.type  = "github";
+    inputs.src-list_comprehension-master.dir   = "lc";
+inputs.src-list_comprehension-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
